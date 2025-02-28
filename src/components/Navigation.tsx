@@ -29,7 +29,7 @@ function Navigation() {
                 isActive('/') ? 'text-teal-600' : 'text-gray-600'
               } hover:text-teal-600 transition-colors`}
             >
-              Accueille 
+              Accueil 
             </Link>
             <Link
               to="/services/rodent-control"
@@ -42,7 +42,7 @@ function Navigation() {
             <Link 
               to="/contact"
               className={`${
-                isActive('/request-quote') ? 'text-teal-600' : 'text-gray-600'
+                isActive('/devis') ? 'text-teal-600' : 'text-gray-600'
               } hover:text-teal-600 transition-colors`}
             >
               Contact
@@ -75,7 +75,7 @@ function Navigation() {
                 } block px-3 py-2 rounded-md text-base font-medium hover:text-teal-600 hover:bg-teal-50`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Accueille
+                Accueil
               </Link>
               <Link
                 to="/services/rodent-control"
@@ -87,9 +87,9 @@ function Navigation() {
                 Services
               </Link>
               <Link
-                to="/request-quote"
+                to="/devis"
                 className={`${
-                  isActive('/request-quote') ? 'text-teal-600 bg-teal-50' : 'text-gray-600'
+                  isActive('/devis') ? 'text-teal-600 bg-teal-50' : 'text-gray-600'
                 } block px-3 py-2 rounded-md text-base font-medium hover:text-teal-600 hover:bg-teal-50`}
                 onClick={() => setIsMenuOpen(false)}
               >

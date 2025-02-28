@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { services } from '../App';
+import { services } from '../components/TypeServices';
 
 function QuoteRequestPage() {
   const [formData, setFormData] = useState({

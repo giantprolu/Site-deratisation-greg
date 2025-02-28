@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Facebook, Twitter, Instagram, Mail, Phone } from 'lucide-react';
-import { services } from '../App';
+import { services } from './TypeServices';
 
 function Footer() {
   return (
@@ -22,11 +22,11 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-400 hover:text-white">
-                  Accueille
+                  Accueil
                 </Link>
               </li>
               <li>
-                <Link to="/request-quote" className="text-gray-400 hover:text-white">
+                <Link to="/devis" className="text-gray-400 hover:text-white">
                   Demander un devis gratuit
                 </Link>
               </li>
